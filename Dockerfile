@@ -18,6 +18,11 @@ RUN apk add --no-cache \
   php84-gd \
   php84-intl \
   php84-mbstring \
+# Necessary for Domoticz Pass2PHP
+  php84-pdo \
+  php84-pdo_sqlite \
+  php84-pdo_mysql \
+# Necessary for Domoticz Pass2PHP  
   php84-mysqli \
   php84-opcache \
   php84-openssl \
